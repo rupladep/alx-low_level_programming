@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'possible combinations of single-digit numbers'
+ * Description: 'all possible different combinations of two digits'
  * Return: always 0
  */
 int main(void)
@@ -17,7 +17,7 @@ int main(void)
 			{
 				putchar(n);
 				putchar(m);
-				if (n != 56 | m != 57)
+				if (n != 56 || m != 57)
 				{
 					putchar(',');
 					putchar(' ');
